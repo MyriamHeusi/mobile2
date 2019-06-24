@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#1E90FF"
+        android:id="@+id/textViewId"
+        android:layout_row="0"
+        android:layout_column="1" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_rowSpan="6"
+        android:gravity="center_vertical"
+        android:text="Checkin" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#1E90FF"
+        android:id="@+id/textViewLabelId"
+        android:text="Codigo da OS"
+        android:layout_row="0"
+        android:layout_column="0" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#4B0082"
+        android:id="@+id/textViewDescricao"
+        android:layout_row="1"
+        android:layout_column="1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#1E90FF"
+        android:id="@+id/textViewLabelDescricao"
+        android:text="Descrição"
+        android:layout_row="1"
+        android:layout_column="0" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#4B0082"
+        android:id="@+id/textViewLocal"
+        android:layout_row="2"
+        android:layout_column="1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#1E90FF"
+        android:id="@+id/textViewLabelLocal"
+        android:text="Local"
+        android:layout_row="2"
+        android:layout_column="0" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#4B0082"
+        android:id="@+id/textViewDataInicio"
+        android:layout_row="3"
+        android:layout_column="1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#1E90FF"
+        android:id="@+id/textViewLabelDatainicio"
+        android:text="Data Inicio"
+        android:layout_row="3"
+        android:layout_column="0" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#4B0082"
+        android:id="@+id/textViewDataFim"
+        android:layout_row="4"
+        android:layout_column="1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#1E90FF"
+        android:id="@+id/textViewLabelDatafim"
+        android:text="Data Fim"
+        android:layout_row="4"
+        android:layout_column="0" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#4B0082"
+        android:id="@+id/textViewStatus"
+        android:layout_row="5"
+        android:layout_column="1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#1E90FF"
+        android:id="@+id/textViewLabelStatus"
+        android:text="Status da OS"
+        android:layout_row="5"
+        android:layout_column="0" />
+
+</GridLayout>
